@@ -1,0 +1,152 @@
+[
+ {
+   "Player": "Joe Mauer",
+   "Split": "April/March",
+   "BA": 0.225
+ },
+ {
+   "Player": "Joe Mauer",
+   "Split": "May",
+   "BA": 0.346
+ },
+ {
+   "Player": "Joe Mauer",
+   "Split": "June",
+   "BA": 0.287
+ },
+ {
+   "Player": "Joe Mauer",
+   "Split": "July",
+   "BA": 0.262
+ },
+ {
+   "Player": "Joe Mauer",
+   "Split": "August",
+   "BA": 0.336
+ },
+ {
+   "Player": "Joe Mauer",
+   "Split": "Sept/Oct",
+   "BA": 0.343
+ },
+ {
+   "Player": "Byron Buxton",
+   "Split": "April/March",
+   "BA": 0.147
+ },
+ {
+   "Player": "Byron Buxton",
+   "Split": "May",
+   "BA": 0.254
+ },
+ {
+   "Player": "Byron Buxton",
+   "Split": "June",
+   "BA": 0.184
+ },
+ {
+   "Player": "Byron Buxton",
+   "Split": "July",
+   "BA": 0.387
+ },
+ {
+   "Player": "Byron Buxton",
+   "Split": "August",
+   "BA": 0.324
+ },
+ {
+   "Player": "Byron Buxton",
+   "Split": "Sept/Oct",
+   "BA": 0.27
+ },
+ {
+   "Player": "Brian Dozier",
+   "Split": "April/March",
+   "BA": 0.242
+ },
+ {
+   "Player": "Brian Dozier",
+   "Split": "May",
+   "BA": 0.255
+ },
+ {
+   "Player": "Brian Dozier",
+   "Split": "June",
+   "BA": 0.25
+ },
+ {
+   "Player": "Brian Dozier",
+   "Split": "July",
+   "BA": 0.24
+ },
+ {
+   "Player": "Brian Dozier",
+   "Split": "August",
+   "BA": 0.319
+ },
+ {
+   "Player": "Brian Dozier",
+   "Split": "Sept/Oct",
+   "BA": 0.308
+ },
+ {
+   "Player": "Eddie Rosario",
+   "Split": "April/March",
+   "BA": 0.268
+ },
+ {
+   "Player": "Eddie Rosario",
+   "Split": "May",
+   "BA": 0.269
+ },
+ {
+   "Player": "Eddie Rosario",
+   "Split": "June",
+   "BA": 0.291
+ },
+ {
+   "Player": "Eddie Rosario",
+   "Split": "July",
+   "BA": 0.321
+ },
+ {
+   "Player": "Eddie Rosario",
+   "Split": "August",
+   "BA": 0.307
+ },
+ {
+   "Player": "Eddie Rosario",
+   "Split": "Sept/Oct",
+   "BA": 0.276
+ },
+ {
+   "Player": "Minnesota Twins",
+   "Split": "April/March",
+   "BA": 0.242
+ },
+ {
+   "Player": "Minnesota Twins",
+   "Split": "May",
+   "BA": 0.26
+ },
+ {
+   "Player": "Minnesota Twins",
+   "Split": "June",
+   "BA": 0.243
+ },
+ {
+   "Player": "Minnesota Twins",
+   "Split": "July",
+   "BA": 0.26
+ },
+ {
+   "Player": "Minnesota Twins",
+   "Split": "August",
+   "BA": 0.28
+ },
+ {
+   "Player": "Minnesota Twins",
+   "Split": "Sept/Oct",
+   "BA": 0.269
+ }
+]

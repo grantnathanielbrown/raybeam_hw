@@ -1,0 +1,62 @@
+[
+    {
+        "Player": "Joe Mauer",
+        "Split": "April/March",
+        "Joe Mauer BA": 0.225
+      },
+      {
+        "Player": "Joe Mauer",
+        "Split": "May",
+        "Joe Mauer BA": 0.346
+      },
+      {
+        "Player": "Joe Mauer",
+        "Split": "June",
+        "Joe Mauer BA": 0.287
+      },
+      {
+        "Player": "Joe Mauer",
+        "Split": "July",
+        "Joe Mauer BA": 0.262
+      },
+      {
+        "Player": "Joe Mauer",
+        "Split": "August",
+        "Joe Mauer BA": 0.336
+      },
+      {
+        "Player": "Joe Mauer",
+        "Split": "Sept/Oct",
+        "Joe Mauer BA": 0.343
+      },
+      {
+        "Player": "Byron Buxton",
+        "Split": "April/March",
+        "Byron Buxton BA": 0.147
+      },
+      {
+        "Player": "Byron Buxton",
+        "Split": "May",
+        "Byron Buxton BA": 0.254
+      },
+      {
+        "Player": "Byron Buxton",
+        "Split": "June",
+        "Byron Buxton BA": 0.184
+      },
+      {
+        "Player": "Byron Buxton",
+        "Split": "July",
+        "Byron Buxton BA": 0.387
+      },
+      {
+        "Player": "Byron Buxton",
+        "Split": "August",
+        "Byron Buxton BA": 0.324
+      },
+      {
+        "Player": "Byron Buxton",
+        "Split": "Sept/Oct",
+        "Byron Buxton BA": 0.27
+      }
+]
