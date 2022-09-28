@@ -1,7 +1,7 @@
 const averages = require("./averages.json")
 const fs = require("fs");
 function convert(input,desiredLength) {
-    // create array of objects with months
+    // create array of objects with {desiredLength} splits.
 
     const convertedData = [];
     for (let i = 0; i < desiredLength; i++) {
@@ -10,7 +10,7 @@ function convert(input,desiredLength) {
         }
     }
 
-    // Iterate over larger data object, push specific player batting averages to  array of objects
+    // Iterate over larger data object, push specific player batting averages to array of objects. Since each player / team has 6 splits worth of data, we use i % 6 to map them all to just 6 objects, one for each split.
     input.forEach((dataPoint,i) => {
         convertedData[i % desiredLength][`${dataPoint.Player} BA`] = dataPoint.BA;
     });

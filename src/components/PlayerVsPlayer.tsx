@@ -1,19 +1,24 @@
-import React from 'react';
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import averages from '../averages.json';
-import test from '../test.json';
+import React, { useEffect } from 'react';
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import convertedAverages from '../data/convertedAverages.json';
 
 export default function PlayerVsPlayer() {
-
-    const players = ["Joe Mauer", "Byron Buxton"]
+    const barColors: string[] = ['red', 'blue', 'yellow', 'green', 'orange'];
+    const [dataSubjects, setDataSubjects] = React.useState<string[]>([]);
+    useEffect( () => {
+        // Collect the names of all the players and the team, and store them in dataSubjects.
+        const subjects = Object.keys(convertedAverages[0]);
+        subjects.shift();
+        setDataSubjects(subjects);
+    },[]);
 
   return (
 
-    <ResponsiveContainer width="100%" height="100%">
+    <ResponsiveContainer width="50%" height="50%">
         <LineChart
           width={500}
           height={300}
-          data={test}
+          data={convertedAverages}
           margin={{
             top: 5,
             right: 30,
@@ -22,12 +27,13 @@ export default function PlayerVsPlayer() {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="Split" />
+          <XAxis dataKey="Split" padding={{ left: 30, right: 30 }}/>
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey={`${players[0]} BA`} stroke="#8884d8" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey={`${players[1]} BA`} stroke="#8884d8" activeDot={{ r: 8 }} />
+            {dataSubjects.map( (subject, index) => {
+                return <Line type="monotone" dataKey={subject} stroke={barColors[index]} strokeWidth={3} activeDot={{ r: 8 }} />
+            })}
         </LineChart>
       </ResponsiveContainer>
   )
