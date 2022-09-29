@@ -28,8 +28,8 @@ code {
 
 .sidebar {
   display: flex;
-  height: 28rem;
-  flex-basis: 80%;
+  height: 38rem;
+  flex-basis: 60%;
   border: solid 2px black;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -42,9 +42,10 @@ code {
 }
 
 .pvp-container {
-  height: 30rem;
+  height: 40rem;
   width: 100%;
   background-color: white;
+  border-radius: 0.5rem;
 }
 
 .content {

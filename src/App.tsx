@@ -1,5 +1,5 @@
 import PlayerVsPlayer from './components/PlayerVsPlayer';
-import logo from '../src/images/twins_logo.png';
+import logo from '../src/images/Minnesota Twins BA.png';
 function App() {
   return (
     <div className="App">
