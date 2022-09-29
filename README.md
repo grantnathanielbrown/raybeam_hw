@@ -1,3 +1,6 @@
+# DESIGN
+
+Please note that I only made a single visualization, because the 2 visualizations are essentially the same.
 # SETUP
 
 1. run the command `npm install` in your terminal to install all the dependencies.
