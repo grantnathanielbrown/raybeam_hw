@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom right, red, #0037FF);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 600;
+  margin-right: .5rem;
+  color: white;
+}
+
+.sidebar {
+  display: flex;
+  height: 38rem;
+  flex-basis: 60%;
+  border: solid 2px black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  margin-right: 2rem;
+  overflow-y: auto;
+  font-weight: bold;
+  font-size: large;
+  align-items: center;
+}
+
+.pvp-container {
+  height: 40rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.content {
+  margin: 0 5%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .centered {
+    margin: 0;
+  }
+}
+  
