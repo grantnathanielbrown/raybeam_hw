@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import {CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import convertedAverages from '../data/convertedAverages.json';
 
 interface dataSubject {
